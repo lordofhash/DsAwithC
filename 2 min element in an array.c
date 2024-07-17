@@ -17,7 +17,7 @@ int main(){
             min=a[i];
             pos=i;
         }}
-    printf("max element is %d \n", min);
-    printf("posn of max element is %d", pos); 
+    printf("min element is %d \n", min);
+    printf("posn of min element is %d", pos); 
      
 }
