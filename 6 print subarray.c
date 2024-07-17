@@ -45,6 +45,8 @@ int main() {
 
 
 findsub(a,k,n);
+
+printf("\nThe time complexity of this program is O(n squared)).\n");
  return 0;
 
 }
