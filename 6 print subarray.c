@@ -14,10 +14,11 @@ int findsub(int arr[],int k, int n) {
                 for (l = i; l < j+1; l++) {
                     printf("%d ",arr[l]);
                 }
+                printf("\n");
             }
         }
     }
-    printf("\n");
+    
     printf("\nNumber of subarrays with req sum are: %d",sub);
     if (!sub){
         printf("\nSorry no subarray is found with the sum %d",k);
